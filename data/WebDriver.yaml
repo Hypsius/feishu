@@ -1,0 +1,8 @@
+install_app:
+  server: https://m1py807zvq8.feishu.cn/messenger/
+  implicitly_wait: '10'
+
+restart_app:
+  server: https://m1py807zvq8.feishu.cn/messenger/
+  implicitly_wait: '10'
+  local file : --user-data-dir=C:/Users/gientech/AppData/Local/Google/Chrome/User Data/Profile 3

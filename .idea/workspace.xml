@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a7ddebb5-17fe-41a5-8732-99e086d1bed4" name="更改" comment="">
+      <change afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/.idea/feishu.iml" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/data/WebDriver.yaml" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/data/__init__.py" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/data/driver.yaml" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/driver/Client.py" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/driver/__init__.py" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/page/ChatPage.py" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/page/__init__.py" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/page/test.py" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/testcases/__init__.py" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/testcases/test_chat.py" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/testcases/test_login.py" afterDir="false" />
+      <change beforePath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/README.md" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/README.md" afterDir="false" />
+      <change beforePath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/page/LoginPage.py" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/page/LoginPage.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/PycharmProjects/pythonProject/feishu/Lib/site-packages/appium/options/android/__init__.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2a1kHWIXRuUhnVKw23K1nTb8aaM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable"
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="ShConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Client">
+    <configuration name="Client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="feishu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_HOME_DIR$/jbr/bin/$PROJECT_DIR$/driver" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_HOME_DIR$/jbr/bin/$PROJECT_DIR$/driver/Client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_chat.TestChat.test_chat 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="feishu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_HOME_DIR$/jbr/bin/$PROJECT_DIR$/testcases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_chat.TestChat.test_chat&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_chat.TestWebChat.test_webchat 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="feishu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_HOME_DIR$/jbr/bin/$PROJECT_DIR$/testcases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_chat.TestWebChat.test_webchat&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_login.TestLogin 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="feishu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_HOME_DIR$/jbr/bin/$PROJECT_DIR$/testcases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.TestLogin&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_login.TestWebLogin 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="feishu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_HOME_DIR$/jbr/bin/$PROJECT_DIR$/testcases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.TestWebLogin&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testcases.test_login.TestLogin 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="feishu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_HOME_DIR$/jbr/bin/$PROJECT_DIR$/testcases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testcases.test_login.TestLogin&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Client" />
+      <item itemvalue="Python 测试.test_chat.TestWebChat.test_webchat 的 Python 测试" />
+      <item itemvalue="Python 测试.test_login.TestLogin 的 Python 测试" />
+      <item itemvalue="Python 测试.test_login.TestWebLogin 的 Python 测试" />
+      <item itemvalue="Python 测试.test_chat.TestChat.test_chat 的 Python 测试" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Client" />
+        <item itemvalue="Python 测试.test_login.TestLogin 的 Python 测试" />
+        <item itemvalue="Python 测试.test_login.TestWebLogin 的 Python 测试" />
+        <item itemvalue="Python 测试.test_chat.TestChat.test_chat 的 Python 测试" />
+        <item itemvalue="Python 测试.test_chat.TestWebChat.test_webchat 的 Python 测试" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="a7ddebb5-17fe-41a5-8732-99e086d1bed4" name="更改" comment="" />
+      <created>1703493384935</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703493384935</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

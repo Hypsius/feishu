@@ -1,0 +1,36 @@
+install_app:
+  server: http://localhost:4723
+  implicitly_wait: '10'
+  caps:
+    android:
+      platformName: android
+      deviceName: huawei
+      appPackage: com.ss.android.lark
+      appActivity: .main.app.MainActivity
+      autoGrantPermissions: true
+      automationName: UiAutomator2
+      platformVersion: '12'
+      uuid: '127.0.0.1:7555'
+    ios:
+
+
+
+restart_app:
+  server: http://localhost:4723
+  implicitly_wait: '10'
+  caps:
+    android:
+      platformName: android
+      deviceName: huawei
+      appPackage: com.ss.android.lark
+      appActivity: .main.app.MainActivity
+      autoGrantPermissions: true
+      automationName: UiAutomator2
+      platformVersion: '12'
+      uuid: '127.0.0.1:7555'
+      noReset: true
+    ios: {}
+    wxmp: {}
+
+
+platform: android
