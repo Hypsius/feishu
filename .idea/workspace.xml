@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7ddebb5-17fe-41a5-8732-99e086d1bed4" name="更改" comment="UI自动化架构--飞书项目">
-      <change afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/driver/WebClient.py" afterDir="false" />
       <change beforePath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/.idea/workspace.xml" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/driver/Client.py" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/driver/AndroidClient.py" afterDir="false" />
-      <change beforePath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/page/ChatPage.py" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/page/ChatPage.py" afterDir="false" />
-      <change beforePath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/page/LoginPage.py" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/page/LoginPage.py" afterDir="false" />
       <change beforePath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/page/test.py" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/page/test.py" afterDir="false" />
-      <change beforePath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/testcases/test_chat.py" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/testcases/test_chat.py" afterDir="false" />
-      <change beforePath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/testcases/test_login.py" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/testcases/test_login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="85fb8965-c2e6-4d99-b407-3b79882cdeae" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/PycharmProjects/pythonProject/feishu/Lib/site-packages/appium/options/android/__init__.py" root0="FORCE_HIGHLIGHTING" />
@@ -50,7 +47,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
   <component name="RunDashboard">
@@ -185,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705379275749</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="UI自动化架构--飞书项目">
+      <created>1705394747953</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705394747953</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
