@@ -1,6 +1,8 @@
+import time
 from selenium.webdriver import ActionChains, Keys
 from selenium.webdriver.common.by import By
-from driver.Client import AndroidClient, WebClient
+from driver.AndroidClient import AndroidClient
+from driver.WebClient import WebClient
 
 
 class ChatPage(object):
@@ -26,8 +28,16 @@ class ChatPage(object):
         self.driver.find_element(*self._text).click()
         self.driver.find_element(*self._kb_rich_text_content).send_keys(keywords)
         self.driver.find_element(*self._btn_send).click()
-        self.driver.implicitly_wait(10)
-        self.driver.terminate_app('com.ss.android.lark')
+        try:
+            from selenium.webdriver.support.wait import WebDriverWait
+            from selenium.webdriver.support import expected_conditions as EC
+
+            element = WebDriverWait(self.driver, 10).until(
+                EC.element_to_be_clickable((By.ID, "com.ss.android.lark:id/btn_send"))
+            )
+        finally:
+            time.sleep(1.5)
+            self.driver.terminate_app('com.ss.android.lark')
 
 
 class WebChatPage(object):
@@ -48,9 +58,20 @@ class WebChatPage(object):
         self.driver.find_element(*_contacts_name).click()
         self.driver.find_element(*self._message_input).send_keys(contacts_message)
         ActionChains(self.driver).key_down(Keys.ENTER).perform()
-        self.driver.implicitly_wait(10)
-        self.driver.quit()
+        try:
+            from selenium.webdriver.support.ui import WebDriverWait
+            from selenium.webdriver.support import expected_conditions as EC
 
+            element = WebDriverWait(self.driver, 10).until(
+                EC.element_to_be_clickable((By.XPATH, "//div[text()='今天']"))
+            )
+        finally:
+            time.sleep(1.5)
+            self.driver.quit()
+
+
+wep = ChatPage()
+wep.chat(name='your_name', keywords='Hellow World1')
 
 # wep = WebChatPage()
-# wep.webchat(contacts_name='蔡志峰', contacts_message='Hellow World')
+# wep.webchat(contacts_name='your_name', contacts_message='Hellow World')

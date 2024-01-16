@@ -3,7 +3,7 @@ from time import sleep
 from appium.webdriver import webdriver
 from appium import webdriver
 from selenium.webdriver.common.by import By
-from driver.Client import AndroidClient
+from driver.AndroidClient import AndroidClient
 
 
 class LoginPage(object):
