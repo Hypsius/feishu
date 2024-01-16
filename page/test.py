@@ -1,48 +1,38 @@
-import time
-
-from selenium import webdriver
-from selenium.common import NoSuchElementException
-from selenium.webdriver import Keys, ActionChains
-from selenium.webdriver.common.by import By
-
-# class WebClient(object):
-#     @classmethod
-#     def webclient(cls):
-options = webdriver.ChromeOptions()
-# # 使用已经登录过的chrome浏览器实例，实现cookie免登录
-options.add_argument('--user-data-dir=C:/Users/gientech/AppData/Local/Google/Chrome/User Data/Profile 3')
-options.add_experimental_option("detach", True)
-driver = webdriver.Chrome(options=options)
-
-driver.get("https://m1py807zvq8.feishu.cn/messenger/")
-driver.implicitly_wait(10)
-
-try:
-    element = driver.find_element(By.XPATH, "//span[text()='收件箱']")
-    print('成功登录')
-
-except NoSuchElementException:
-    print()
-    driver.find_element(By.XPATH, "//span[@class='universe-icon switch-icon']").click()
-    driver.find_element(By.NAME, 'mobile_input').send_keys("13316090732")
-    driver.find_element(By.XPATH, "//button[text()='下一步']").click()
-    driver.find_element(By.XPATH, "//button[text()='同意']").click()
-    driver.find_element(By.XPATH, "//input[@type='password']").send_keys("tester-002")
-    driver.find_element(By.XPATH, "//button[contains(@data-test,'login-pwd-next-btn')]").click()
-
-driver.find_element(By.XPATH, "//section[@data-tip='tip-contacts']").click()
-
-driver.find_element(By.XPATH, "//section[@class='navbarMenu navbarMenu_active']").click()
-driver.find_element(By.XPATH, "//span[text()='蔡志峰']").click()
-driver.find_element(By.XPATH, "//input[@class='larkc-usercard__footer__input larkc-usercard__footer__message-input']")\
-                    .send_keys("hello word")
-ActionChains(driver).key_down(Keys.ENTER).perform()
+import yaml
+from appium.webdriver import webdriver
+from appium import webdriver
+from appium.options.android import UiAutomator2Options
+# from selenium import webdriver
 
 
+# 需要用户登录过账号后进行自动化
+class AndroidClient(object):
+    driver: webdriver
 
-# driver.get("http://baidu.com")
-# driver.find_element(By.ID, 'kw').send_keys("Python")
-# driver.find_element(By.ID, 'su').click()
+    @classmethod
+    # yaml数据驱动初始类
+    def initDriver(cls, key) -> webdriver:
+        # 最新版YAML需要指定Loader解析器：SafeLoader、FullLoader
+        driver_data = yaml.load(open('../data/driver.yaml'), Loader=yaml.FullLoader)
+        platform = str(driver_data['platform'])
+        caps = driver_data[key]['caps'][platform]
+        server = driver_data[key]['server']
+        implicitly_wait = driver_data[key]['implicitly_wait']
+        options = UiAutomator2Options().load_capabilities(caps)
+        print(options)
+        cls.driver = webdriver.Remote(server, options=options)
+        cls.driver.implicitly_wait(implicitly_wait)
+        return cls.driver
 
-# 调用 webclient 方法
-# WebClient.webclient()
+    @classmethod
+    def restart_app(cls) -> webdriver:
+        return cls.initDriver('restart_app')
+
+    @classmethod
+    # 进行第一次启动
+    def install_app(cls) -> webdriver:
+        return cls.initDriver('install_app')
+
+
+AndroidClient.install_app()
+# AndroidClient.restart_app()
