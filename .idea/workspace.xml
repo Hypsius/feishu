@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7ddebb5-17fe-41a5-8732-99e086d1bed4" name="更改" comment="UI自动化架构--飞书项目">
+      <change afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/gold/EscapePage.py" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/gold/GoldClient.py" afterDir="false" />
+      <change afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/gold/__init__.py" afterDir="false" />
       <change beforePath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/.idea/workspace.xml" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/data/driver.yaml" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/data/driver.yaml" afterDir="false" />
+      <change beforePath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/driver/AndroidClient.py" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/driver/AndroidClient.py" afterDir="false" />
+      <change beforePath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/driver/WebClient.py" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/driver/WebClient.py" afterDir="false" />
+      <change beforePath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/page/ChatPage.py" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/page/ChatPage.py" afterDir="false" />
+      <change beforePath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/page/LoginPage.py" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/page/LoginPage.py" afterDir="false" />
       <change beforePath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/page/test.py" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/page/test.py" afterDir="false" />
+      <change beforePath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/testcases/test_chat.py" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/testcases/test_chat.py" afterDir="false" />
+      <change beforePath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/testcases/test_login.py" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/jbr/bin/tech/PycharmProjects/feishu/testcases/test_login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +53,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -57,8 +67,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ChatPage">
-    <configuration name="ChatPage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python 测试.Python 测试 (test_login.py 内)">
+    <configuration name="LoginPage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="feishu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -70,27 +80,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$APPLICATION_HOME_DIR$/jbr/bin/$PROJECT_DIR$/page/ChatPage.py" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_HOME_DIR$/jbr/bin/$PROJECT_DIR$/page/LoginPage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python 测试 (test_chat.py 内)" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="feishu" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$APPLICATION_HOME_DIR$/jbr/bin/$PROJECT_DIR$/testcases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$APPLICATION_HOME_DIR$/jbr/bin/$PROJECT_DIR$/testcases/test_chat.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python 测试 (test_login.py 内)" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -107,20 +103,6 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="test_chat.TestChat 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="feishu" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$APPLICATION_HOME_DIR$/jbr/bin/$PROJECT_DIR$/testcases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_chat.TestChat&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="test_login.TestLogin 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="feishu" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,20 +117,48 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="test_login.TestLogin.test_login 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="feishu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_HOME_DIR$/jbr/bin/$PROJECT_DIR$/testcases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.TestLogin.test_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_login.TestWebLogin 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="feishu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_HOME_DIR$/jbr/bin/$PROJECT_DIR$/testcases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.TestWebLogin&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.ChatPage" />
-      <item itemvalue="Python 测试.Python 测试 (test_chat.py 内)" />
+      <item itemvalue="Python.LoginPage" />
+      <item itemvalue="Python 测试.test_login.TestLogin.test_login 的 Python 测试" />
+      <item itemvalue="Python 测试.test_login.TestWebLogin 的 Python 测试" />
       <item itemvalue="Python 测试.Python 测试 (test_login.py 内)" />
-      <item itemvalue="Python 测试.test_chat.TestChat 的 Python 测试" />
       <item itemvalue="Python 测试.test_login.TestLogin 的 Python 测试" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ChatPage" />
-        <item itemvalue="Python 测试.test_chat.TestChat 的 Python 测试" />
-        <item itemvalue="Python 测试.Python 测试 (test_chat.py 内)" />
         <item itemvalue="Python 测试.Python 测试 (test_login.py 内)" />
+        <item itemvalue="Python 测试.test_login.TestWebLogin 的 Python 测试" />
         <item itemvalue="Python 测试.test_login.TestLogin 的 Python 测试" />
+        <item itemvalue="Python.LoginPage" />
+        <item itemvalue="Python 测试.test_login.TestLogin.test_login 的 Python 测试" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +199,21 @@
       <option name="project" value="LOCAL" />
       <updated>1705394747953</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="UI自动化架构--飞书项目">
+      <created>1705397394014</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705397394014</updated>
+    </task>
+    <task id="LOCAL-00006" summary="UI自动化架构--飞书项目">
+      <created>1705398495128</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705398495128</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

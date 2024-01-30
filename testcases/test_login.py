@@ -11,7 +11,8 @@ class TestLogin(object):
 
     def test_login(self):
         main_page = LoginPage(driver=self.android_driver)
-        main_page.loginByPassword(phone_number='your_phone1', password='tester-001')
+        main_page.loginByPassword(phone_number='phone', password='tester-001')
+        main_page.getErrorMsg()
 
 
 class TestWebLogin(object):
@@ -21,7 +22,8 @@ class TestWebLogin(object):
 
     def test_login(self):
         main_page = WebLogin(driver=self.android_driver)
-        main_page.loginByPassword(mobile='your_phone2', password='tester-002')
+        main_page.loginByPassword(mobile='phone', password='tester-002')
+        main_page.getErrorMsg()
 
 
 if __name__ == '__main__':

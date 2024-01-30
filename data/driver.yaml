@@ -1,6 +1,6 @@
 install_app:
   server: http://localhost:4723
-  implicitly_wait: '10'
+  implicitly_wait: '20'
   caps:
     android:
       platformName: android
@@ -17,7 +17,7 @@ install_app:
 
 restart_app:
   server: http://localhost:4723
-  implicitly_wait: '10'
+  implicitly_wait: '20'
   caps:
     android:
       platformName: android

@@ -1,3 +1,4 @@
+import json
 import time
 from time import sleep
 from appium.webdriver import webdriver
@@ -16,6 +17,7 @@ class LoginPage(object):
         self._signin_sdk_input_pass_word_edit_text = (
             By.ID, "com.ss.android.lark:id/signin_sdk_input_pass_word_edit_text")
         self._signin_sdk_widget_footer_btn = (By.ID, "com.ss.android.lark:id/signin_sdk_widget_footer_btn")
+        self._error_msg = (By.ID, "com.ss.android.lark:id/tab_first")
 
     def loginByPassword(self, phone_number, password):
         self.driver.find_element(*self._ud_dialog_btn_primary).click()
@@ -26,13 +28,9 @@ class LoginPage(object):
         self.driver.find_element(*self._signin_sdk_input_pass_word_edit_text).send_keys(password)
         self.driver.find_element(*self._signin_sdk_widget_footer_btn).click()
 
-    # def terminate_app(self):
-    #     time.sleep(10)
-    #     self.driver.terminate_app('com.ss.android.lark')  # 退出app
-
-# android_driver = AndroidClient.install_app()
-# new_page = LoginPage(driver=android_driver)
-# new_page.loginByPassword(phone_number='13430116165', password='tester-001')
+    def getErrorMsg(self):
+        assert self.driver.find_element(*self._error_msg).is_displayed()
+        return
 
 
 class WebLogin(object):
@@ -44,6 +42,7 @@ class WebLogin(object):
         self._approve_btn = (By.XPATH, "//button[text()='同意']")
         self._password = (By.XPATH, "//input[@type='password']")
         self._login_btn = (By.XPATH, "//button[contains(@data-test,'login-pwd-next-btn')]")
+        self._error_msg = (By.ID, "//div[text()='今天']")
 
     def loginByPassword(self, mobile, password):
         self.driver.find_element(*self._switch_icon).click()
@@ -54,4 +53,6 @@ class WebLogin(object):
         self.driver.find_element(*self._login_btn).click()
         #   最后一步需要输入验证码，解决办法：1.手动输入验证码  2.使用短信转发器，监听端口API请求获取输入验证码
 
-
+    def getErrorMsg(self):
+        assert self.driver.find_element(*self._error_msg).is_displayed()
+        return

@@ -18,6 +18,7 @@ class ChatPage(object):
         self._text = (By.XPATH, '//android.widget.TextView[@text="消息"]')
         self._kb_rich_text_content = (By.ID, 'com.ss.android.lark:id/kb_rich_text_content')
         self._btn_send = (By.XPATH, '//android.widget.ImageView[@resource-id="com.ss.android.lark:id/btn_send"]')
+        self._error_msg = (By.ID, "com.ss.android.lark:id/tab_first")
 
     def chat(self, name, keywords):
         _contact_name = (By.XPATH, '//android.widget.TextView[@resource-id="com.ss.android.lark:id/contact_name" '
@@ -37,6 +38,7 @@ class ChatPage(object):
             )
         finally:
             time.sleep(1.5)
+            assert self.driver.find_element(*self._error_msg).is_displayed()
             self.driver.terminate_app('com.ss.android.lark')
 
 
@@ -49,6 +51,7 @@ class WebChatPage(object):
         self._message_input = (By.XPATH, "//input[@class='larkc-usercard__footer__input "
                                          "larkc-usercard__footer__message-input']")
         self._navbarMenu_active = (By.XPATH, "//section[@class='navbarMenu navbarMenu_active']")
+        self._error_msg = (By.ID, "//div[text()='今天']")
 
     def webchat(self, contacts_name, contacts_message):
         _contacts_name = (By.XPATH, '//span[text()="%s"]' % contacts_name)
@@ -67,11 +70,6 @@ class WebChatPage(object):
             )
         finally:
             time.sleep(1.5)
+            assert self.driver.find_element(*self._error_msg).is_displayed()
             self.driver.quit()
 
-
-wep = ChatPage()
-wep.chat(name='your_name', keywords='Hellow World1')
-
-# wep = WebChatPage()
-# wep.webchat(contacts_name='your_name', contacts_message='Hellow World')

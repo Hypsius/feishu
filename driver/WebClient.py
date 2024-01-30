@@ -28,7 +28,3 @@ class WebClient(object):
     @classmethod
     def install_app(cls) -> webdriver:
         return cls.initDriver('install_app')
-
-
-# WebClient().install_app()
-# WebClient().restart_app()
